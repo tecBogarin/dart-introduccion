@@ -50,16 +50,16 @@ class Pato extends Ave with Volador, Caminante, Nadador {
   //  String WhatUName(String nombre) => 'Este lindo Pato se llama: $nombre';
 }
 
-void main() {
-  final flipper = Delfin();
-  print(flipper.getSangre.toString());
-  flipper.nadando();
-  flipper.edad();
-  print(flipper.WhatUName('Flipper'));
-  flipper.appellido();
-  final lucas = Pato();
-  lucas.caminando();
-  lucas.nadando();
-  lucas.vuela();
-  print(lucas.WhatUName('Lucas'));
-}
+// void main() {
+//   final flipper = Delfin();
+//   print(flipper.getSangre.toString());
+//   flipper.nadando();
+//   flipper.edad();
+//   print(flipper.WhatUName('Flipper'));
+//   flipper.appellido();
+//   final lucas = Pato();
+//   lucas.caminando();
+//   lucas.nadando();
+//   lucas.vuela();
+//   print(lucas.WhatUName('Lucas'));
+// }

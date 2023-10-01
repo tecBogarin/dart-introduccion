@@ -71,7 +71,7 @@ Future<Post> fetchPost(String urlString) async {
   }
 }
 
-// mixin, helper o una clases de conexion
+// mixin, helper o una clases de conexión
 Future<T> procesarRequest<T, P>(
     Future<T> Function(P) llamadoRequest, P url) async {
   try {

@@ -21,7 +21,7 @@ print('$host/mundo');
   }
 ```
 6. explicar ese fragmento de código y especialmente  texto que dice **factory**  
-```` dart
+```dart
   factory Post.fromJson(Map<String, dynamic> json) {
     return Post(
       userId: json['userId'],
@@ -29,4 +29,28 @@ print('$host/mundo');
       title: json['title'],
       body: json['body'],
     );
-    ```
+```
+
+>La entrega de la tarea sera:
+>
+>> 1. hacer un documento técnico explicando  por que escogieron esa arquitectura, sus capas y lo que se configuro en ellas.
+>>
+>>> 1. Los pormenores al ejecutar e instalar dart
+>>
+>>> 2. la explicación de la funcionalidad **procesarRequest**.
+>>
+>>> 3. en que capa quedo el archivo de la configuración, como solucionaron el poderlo usar y por que se utilizo de esa forma.
+>>
+>>> 4. la explicación de uso de **factory**
+>>
+>>> 5. el documento tiene que tener portada indice introducción de una breve explicación de lo que lleva el documento y conclusion.
+>>
+>> 2. La URL del código funcionando con la arquitectura solicitada y ejecutando los ejemplos.
+>>
+>>> 1. tiene que tener claridad y contexto el nombre de las variables,funciones y clases.
+>>
+>>> 2. utilizar lo visto en clase e investigas patrones de diseños a utilizar.
+>>
+>>> 3. Reutilizar el código ya establecido  y no tener duplicidad de el.
+>>
+>________________________________________________________________

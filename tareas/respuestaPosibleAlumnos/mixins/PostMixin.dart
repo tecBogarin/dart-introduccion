@@ -14,15 +14,6 @@ mixin PostMixin {
     }
   }
 
-  Future<Post> fetchPostV2(
-      Future<Map<String, dynamic>> Function(String) llamadoRequest,
-      String urlString) async {
-    try {
-      return Post.fromJson(await llamadoRequest(urlString));
-    } catch (e) {
-      throw Exception(e);
-    }
-  }
 
   Future<List<Post>> fetchAllPost(String urlString) async {
     final response = await http.get(Uri.parse(urlString));
